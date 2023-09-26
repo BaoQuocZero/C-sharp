@@ -1,0 +1,7 @@
+E:\Code\C\Số thành chữ số\Số thành chữ số\bin\Debug\Số thành chữ số.exe.config
+E:\Code\C\Số thành chữ số\Số thành chữ số\bin\Debug\Số thành chữ số.exe
+E:\Code\C\Số thành chữ số\Số thành chữ số\bin\Debug\Số thành chữ số.pdb
+E:\Code\C\Số thành chữ số\Số thành chữ số\obj\Debug\Số thành chữ số.csproj.AssemblyReference.cache
+E:\Code\C\Số thành chữ số\Số thành chữ số\obj\Debug\Số thành chữ số.csproj.CoreCompileInputs.cache
+E:\Code\C\Số thành chữ số\Số thành chữ số\obj\Debug\Số thành chữ số.exe
+E:\Code\C\Số thành chữ số\Số thành chữ số\obj\Debug\Số thành chữ số.pdb

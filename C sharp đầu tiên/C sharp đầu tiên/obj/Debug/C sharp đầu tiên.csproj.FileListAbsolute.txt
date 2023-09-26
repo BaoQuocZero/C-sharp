@@ -1,0 +1,7 @@
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\bin\Debug\C sharp đầu tiên.exe.config
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\bin\Debug\C sharp đầu tiên.exe
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\bin\Debug\C sharp đầu tiên.pdb
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\obj\Debug\C sharp đầu tiên.csproj.AssemblyReference.cache
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\obj\Debug\C sharp đầu tiên.csproj.CoreCompileInputs.cache
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\obj\Debug\C sharp đầu tiên.exe
+E:\Code\C\C sharp đầu tiên\C sharp đầu tiên\obj\Debug\C sharp đầu tiên.pdb

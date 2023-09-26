@@ -1,0 +1,7 @@
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\bin\Debug\Bảng cửu chương.exe.config
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\bin\Debug\Bảng cửu chương.exe
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\bin\Debug\Bảng cửu chương.pdb
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\obj\Debug\Bảng cửu chương.csproj.AssemblyReference.cache
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\obj\Debug\Bảng cửu chương.csproj.CoreCompileInputs.cache
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\obj\Debug\Bảng cửu chương.exe
+E:\Code\C\Bảng cửu chương\Bảng cửu chương\obj\Debug\Bảng cửu chương.pdb
