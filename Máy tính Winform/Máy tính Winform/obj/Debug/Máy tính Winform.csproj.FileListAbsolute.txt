@@ -1,0 +1,10 @@
+E:\Code\C\Máy tính Winform\Máy tính Winform\bin\Debug\Máy tính Winform.exe.config
+E:\Code\C\Máy tính Winform\Máy tính Winform\bin\Debug\Máy tính Winform.exe
+E:\Code\C\Máy tính Winform\Máy tính Winform\bin\Debug\Máy tính Winform.pdb
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy tính Winform.csproj.AssemblyReference.cache
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy_tính_Winform.Form1.resources
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy_tính_Winform.Properties.Resources.resources
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy tính Winform.csproj.GenerateResource.cache
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy tính Winform.csproj.CoreCompileInputs.cache
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy tính Winform.exe
+E:\Code\C\Máy tính Winform\Máy tính Winform\obj\Debug\Máy tính Winform.pdb
