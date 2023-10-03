@@ -1,0 +1,10 @@
+E:\Code\C-sharp\TestCode\TestCode\bin\Debug\TestCode.exe.config
+E:\Code\C-sharp\TestCode\TestCode\bin\Debug\TestCode.exe
+E:\Code\C-sharp\TestCode\TestCode\bin\Debug\TestCode.pdb
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.csproj.AssemblyReference.cache
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.Form1.resources
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.Properties.Resources.resources
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.csproj.GenerateResource.cache
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.exe
+E:\Code\C-sharp\TestCode\TestCode\obj\Debug\TestCode.pdb
