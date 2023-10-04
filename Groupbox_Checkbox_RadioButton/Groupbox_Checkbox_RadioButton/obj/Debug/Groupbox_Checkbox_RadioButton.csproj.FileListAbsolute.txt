@@ -1,0 +1,10 @@
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\bin\Debug\Groupbox_Checkbox_RadioButton.exe.config
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\bin\Debug\Groupbox_Checkbox_RadioButton.exe
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\bin\Debug\Groupbox_Checkbox_RadioButton.pdb
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.csproj.AssemblyReference.cache
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.Form1.resources
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.Properties.Resources.resources
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.csproj.GenerateResource.cache
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.exe
+E:\Code\C-sharp\Groupbox_Checkbox_RadioButton\Groupbox_Checkbox_RadioButton\obj\Debug\Groupbox_Checkbox_RadioButton.pdb

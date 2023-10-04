@@ -1,0 +1,10 @@
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\bin\Debug\MessageBox_LOI_Cmm.exe.config
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\bin\Debug\MessageBox_LOI_Cmm.exe
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\bin\Debug\MessageBox_LOI_Cmm.pdb
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.csproj.AssemblyReference.cache
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.Form1.resources
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.Properties.Resources.resources
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.csproj.GenerateResource.cache
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.exe
+E:\Code\C-sharp\MessageBox_LOI_Cmm\MessageBox_LOI_Cmm\obj\Debug\MessageBox_LOI_Cmm.pdb

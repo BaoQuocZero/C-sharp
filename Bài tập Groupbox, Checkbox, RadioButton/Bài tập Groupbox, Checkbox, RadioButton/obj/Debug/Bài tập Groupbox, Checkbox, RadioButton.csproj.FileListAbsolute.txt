@@ -1,0 +1,10 @@
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\bin\Debug\Bài tập Groupbox, Checkbox, RadioButton.exe.config
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\bin\Debug\Bài tập Groupbox, Checkbox, RadioButton.exe
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\bin\Debug\Bài tập Groupbox, Checkbox, RadioButton.pdb
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài tập Groupbox, Checkbox, RadioButton.csproj.AssemblyReference.cache
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài_tập_Groupbox__Checkbox__RadioButton.Form1.resources
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài_tập_Groupbox__Checkbox__RadioButton.Properties.Resources.resources
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài tập Groupbox, Checkbox, RadioButton.csproj.GenerateResource.cache
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài tập Groupbox, Checkbox, RadioButton.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài tập Groupbox, Checkbox, RadioButton.exe
+E:\Code\C-sharp\Bài tập Groupbox, Checkbox, RadioButton\Bài tập Groupbox, Checkbox, RadioButton\obj\Debug\Bài tập Groupbox, Checkbox, RadioButton.pdb
