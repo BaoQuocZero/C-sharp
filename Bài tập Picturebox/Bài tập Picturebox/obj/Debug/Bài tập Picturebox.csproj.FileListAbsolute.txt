@@ -1,0 +1,10 @@
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\bin\Debug\Bài tập Picturebox.exe.config
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\bin\Debug\Bài tập Picturebox.exe
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\bin\Debug\Bài tập Picturebox.pdb
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài tập Picturebox.csproj.AssemblyReference.cache
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài_tập_Picturebox.Form1.resources
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài_tập_Picturebox.Properties.Resources.resources
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài tập Picturebox.csproj.GenerateResource.cache
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài tập Picturebox.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài tập Picturebox.exe
+E:\Code\C-sharp\Bài tập Picturebox\Bài tập Picturebox\obj\Debug\Bài tập Picturebox.pdb
