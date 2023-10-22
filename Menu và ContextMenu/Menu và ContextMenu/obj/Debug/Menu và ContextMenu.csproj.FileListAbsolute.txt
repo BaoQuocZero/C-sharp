@@ -1,0 +1,10 @@
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\bin\Debug\Menu và ContextMenu.exe.config
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\bin\Debug\Menu và ContextMenu.exe
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\bin\Debug\Menu và ContextMenu.pdb
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu và ContextMenu.csproj.AssemblyReference.cache
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu_và_ContextMenu.Form1.resources
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu_và_ContextMenu.Properties.Resources.resources
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu và ContextMenu.csproj.GenerateResource.cache
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu và ContextMenu.csproj.CoreCompileInputs.cache
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu và ContextMenu.exe
+E:\Code\C-sharp\Menu và ContextMenu\Menu và ContextMenu\obj\Debug\Menu và ContextMenu.pdb

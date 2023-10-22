@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dgv = new System.Windows.Forms.DataGridView();
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.pnChinh = new System.Windows.Forms.FlowLayoutPanel();
@@ -44,16 +45,18 @@
             this.lblDienThoai = new System.Windows.Forms.Label();
             this.txtDienThoai = new System.Windows.Forms.TextBox();
             this.pnButton = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnTimMa = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mnuTimMa = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTimTen = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDemSL = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuThem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSua = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.pnChinh.SuspendLayout();
             this.pnButton.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgv
@@ -200,103 +203,90 @@
             // 
             // pnButton
             // 
-            this.pnButton.Controls.Add(this.btnTimMa);
-            this.pnButton.Controls.Add(this.button1);
-            this.pnButton.Controls.Add(this.button2);
-            this.pnButton.Controls.Add(this.button3);
-            this.pnButton.Controls.Add(this.button4);
-            this.pnButton.Controls.Add(this.button5);
-            this.pnButton.Controls.Add(this.button6);
+            this.pnButton.Controls.Add(this.menuStrip1);
             this.pnButton.Location = new System.Drawing.Point(19, 368);
             this.pnButton.Name = "pnButton";
             this.pnButton.Size = new System.Drawing.Size(761, 62);
             this.pnButton.TabIndex = 3;
             // 
-            // btnTimMa
+            // menuStrip1
             // 
-            this.btnTimMa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimMa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimMa.Location = new System.Drawing.Point(3, 3);
-            this.btnTimMa.Name = "btnTimMa";
-            this.btnTimMa.Size = new System.Drawing.Size(100, 37);
-            this.btnTimMa.TabIndex = 0;
-            this.btnTimMa.Text = "Tìm Mã";
-            this.btnTimMa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTimMa.UseVisualStyleBackColor = true;
-            this.btnTimMa.Click += new System.EventHandler(this.btnTimMa_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuTimMa,
+            this.mnuTimTen,
+            this.mnuDemSL,
+            this.mnuThem,
+            this.mnuXoa,
+            this.mnuSua,
+            this.mnuThoat});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(593, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // button1
+            // mnuTimMa
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(109, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 37);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Tìm tên";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.mnuTimMa.AutoSize = false;
+            this.mnuTimMa.Image = ((System.Drawing.Image)(resources.GetObject("mnuTimMa.Image")));
+            this.mnuTimMa.Name = "mnuTimMa";
+            this.mnuTimMa.Size = new System.Drawing.Size(75, 20);
+            this.mnuTimMa.Text = "Tìm Mã";
+            this.mnuTimMa.Click += new System.EventHandler(this.mnuTimMa_Click);
             // 
-            // button2
+            // mnuTimTen
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(215, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 37);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Đếm SL";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.mnuTimTen.AutoSize = false;
+            this.mnuTimTen.Image = ((System.Drawing.Image)(resources.GetObject("mnuTimTen.Image")));
+            this.mnuTimTen.Name = "mnuTimTen";
+            this.mnuTimTen.Size = new System.Drawing.Size(76, 20);
+            this.mnuTimTen.Text = "Tìm Tên";
+            this.mnuTimTen.Click += new System.EventHandler(this.mnuTimTen_Click);
             // 
-            // button3
+            // mnuDemSL
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(321, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 37);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Thêm";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
+            this.mnuDemSL.AutoSize = false;
+            this.mnuDemSL.Image = ((System.Drawing.Image)(resources.GetObject("mnuDemSL.Image")));
+            this.mnuDemSL.Name = "mnuDemSL";
+            this.mnuDemSL.Size = new System.Drawing.Size(75, 20);
+            this.mnuDemSL.Text = "Đếm SL";
+            this.mnuDemSL.Click += new System.EventHandler(this.mnuDemSL_Click);
             // 
-            // button4
+            // mnuThem
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(427, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 37);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Xóa";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
+            this.mnuThem.AutoSize = false;
+            this.mnuThem.Image = ((System.Drawing.Image)(resources.GetObject("mnuThem.Image")));
+            this.mnuThem.Name = "mnuThem";
+            this.mnuThem.Size = new System.Drawing.Size(65, 20);
+            this.mnuThem.Text = "Thêm";
+            this.mnuThem.Click += new System.EventHandler(this.mnuThem_Click);
             // 
-            // button5
+            // mnuSua
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(533, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 37);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Sửa";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
+            this.mnuSua.AutoSize = false;
+            this.mnuSua.Image = ((System.Drawing.Image)(resources.GetObject("mnuSua.Image")));
+            this.mnuSua.Name = "mnuSua";
+            this.mnuSua.Size = new System.Drawing.Size(54, 20);
+            this.mnuSua.Text = "Sửa";
+            this.mnuSua.Click += new System.EventHandler(this.mnuSua_Click);
             // 
-            // button6
+            // mnuXoa
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(639, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 37);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Thoát";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.mnuXoa.AutoSize = false;
+            this.mnuXoa.Image = ((System.Drawing.Image)(resources.GetObject("mnuXoa.Image")));
+            this.mnuXoa.Name = "mnuXoa";
+            this.mnuXoa.Size = new System.Drawing.Size(55, 20);
+            this.mnuXoa.Text = "Xóa";
+            this.mnuXoa.Click += new System.EventHandler(this.mnuXoa_Click);
+            // 
+            // mnuThoat
+            // 
+            this.mnuThoat.AutoSize = false;
+            this.mnuThoat.Image = ((System.Drawing.Image)(resources.GetObject("mnuThoat.Image")));
+            this.mnuThoat.Name = "mnuThoat";
+            this.mnuThoat.Size = new System.Drawing.Size(65, 20);
+            this.mnuThoat.Text = "Thoát";
+            this.mnuThoat.Click += new System.EventHandler(this.mnuThoat_Click);
             // 
             // Form1
             // 
@@ -307,6 +297,7 @@
             this.Controls.Add(this.pnChinh);
             this.Controls.Add(this.lblTieuDe);
             this.Controls.Add(this.dgv);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -314,6 +305,9 @@
             this.pnChinh.ResumeLayout(false);
             this.pnChinh.PerformLayout();
             this.pnButton.ResumeLayout(false);
+            this.pnButton.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -336,13 +330,14 @@
         private System.Windows.Forms.TextBox txtDienThoai;
         private System.Windows.Forms.ComboBox cboGoiTinh;
         private System.Windows.Forms.FlowLayoutPanel pnButton;
-        private System.Windows.Forms.Button btnTimMa;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mnuTimMa;
+        private System.Windows.Forms.ToolStripMenuItem mnuTimTen;
+        private System.Windows.Forms.ToolStripMenuItem mnuDemSL;
+        private System.Windows.Forms.ToolStripMenuItem mnuThem;
+        private System.Windows.Forms.ToolStripMenuItem mnuSua;
+        private System.Windows.Forms.ToolStripMenuItem mnuXoa;
+        private System.Windows.Forms.ToolStripMenuItem mnuThoat;
     }
 }
 
