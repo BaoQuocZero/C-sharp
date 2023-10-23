@@ -37,7 +37,6 @@
             this.lblNamSinh = new System.Windows.Forms.Label();
             this.txtNamSinh = new System.Windows.Forms.TextBox();
             this.lblDiaChi = new System.Windows.Forms.Label();
-            this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.lblHoTen = new System.Windows.Forms.Label();
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.lblGioiTinh = new System.Windows.Forms.Label();
@@ -50,9 +49,11 @@
             this.mnuTimTen = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDemSL = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuSua = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSua = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboDiaChi = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.pnChinh.SuspendLayout();
             this.pnButton.SuspendLayout();
@@ -76,8 +77,9 @@
             this.lblTieuDe.Name = "lblTieuDe";
             this.lblTieuDe.Size = new System.Drawing.Size(800, 48);
             this.lblTieuDe.TabIndex = 1;
-            this.lblTieuDe.Text = "THÔNG TIN NHÂN VIÊN";
+            this.lblTieuDe.Text = " ";
             this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTieuDe.Click += new System.EventHandler(this.lblTieuDe_Click);
             // 
             // pnChinh
             // 
@@ -86,13 +88,14 @@
             this.pnChinh.Controls.Add(this.lblNamSinh);
             this.pnChinh.Controls.Add(this.txtNamSinh);
             this.pnChinh.Controls.Add(this.lblDiaChi);
-            this.pnChinh.Controls.Add(this.txtDiaChi);
+            this.pnChinh.Controls.Add(this.cboDiaChi);
             this.pnChinh.Controls.Add(this.lblHoTen);
             this.pnChinh.Controls.Add(this.txtHoTen);
             this.pnChinh.Controls.Add(this.lblGioiTinh);
             this.pnChinh.Controls.Add(this.cboGoiTinh);
             this.pnChinh.Controls.Add(this.lblDienThoai);
             this.pnChinh.Controls.Add(this.txtDienThoai);
+            this.pnChinh.Controls.Add(this.comboBox1);
             this.pnChinh.Location = new System.Drawing.Point(19, 51);
             this.pnChinh.Name = "pnChinh";
             this.pnChinh.Size = new System.Drawing.Size(761, 116);
@@ -138,13 +141,6 @@
             this.lblDiaChi.Size = new System.Drawing.Size(100, 64);
             this.lblDiaChi.TabIndex = 9;
             this.lblDiaChi.Text = "Địa chỉ";
-            // 
-            // txtDiaChi
-            // 
-            this.txtDiaChi.Location = new System.Drawing.Point(613, 3);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(140, 20);
-            this.txtDiaChi.TabIndex = 10;
             // 
             // lblHoTen
             // 
@@ -221,7 +217,7 @@
             this.mnuThoat});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(593, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(473, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -261,15 +257,6 @@
             this.mnuThem.Text = "Thêm";
             this.mnuThem.Click += new System.EventHandler(this.mnuThem_Click);
             // 
-            // mnuSua
-            // 
-            this.mnuSua.AutoSize = false;
-            this.mnuSua.Image = ((System.Drawing.Image)(resources.GetObject("mnuSua.Image")));
-            this.mnuSua.Name = "mnuSua";
-            this.mnuSua.Size = new System.Drawing.Size(54, 20);
-            this.mnuSua.Text = "Sửa";
-            this.mnuSua.Click += new System.EventHandler(this.mnuSua_Click);
-            // 
             // mnuXoa
             // 
             this.mnuXoa.AutoSize = false;
@@ -279,6 +266,15 @@
             this.mnuXoa.Text = "Xóa";
             this.mnuXoa.Click += new System.EventHandler(this.mnuXoa_Click);
             // 
+            // mnuSua
+            // 
+            this.mnuSua.AutoSize = false;
+            this.mnuSua.Image = ((System.Drawing.Image)(resources.GetObject("mnuSua.Image")));
+            this.mnuSua.Name = "mnuSua";
+            this.mnuSua.Size = new System.Drawing.Size(54, 20);
+            this.mnuSua.Text = "Sửa";
+            this.mnuSua.Click += new System.EventHandler(this.mnuSua_Click);
+            // 
             // mnuThoat
             // 
             this.mnuThoat.AutoSize = false;
@@ -287,6 +283,93 @@
             this.mnuThoat.Size = new System.Drawing.Size(65, 20);
             this.mnuThoat.Text = "Thoát";
             this.mnuThoat.Click += new System.EventHandler(this.mnuThoat_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Nam",
+            "Nữ",
+            "Khác"});
+            this.comboBox1.Location = new System.Drawing.Point(3, 131);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(140, 21);
+            this.comboBox1.TabIndex = 18;
+            // 
+            // cboDiaChi
+            // 
+            this.cboDiaChi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboDiaChi.FormattingEnabled = true;
+            this.cboDiaChi.Items.AddRange(new object[] {
+            "An Giang",
+            "Bà Rịa - Vũng Tàu",
+            "Bắc Giang",
+            "Bắc Kạn",
+            "Bạc Liêu",
+            "Bắc Ninh",
+            "Bến Tre",
+            "Bình Định",
+            "Bình Dương",
+            "Bình Phước",
+            "Bình Thuận",
+            "Cà Mau",
+            "Cần Thơ",
+            "Cao Bằng",
+            "Đà Nẵng",
+            "Đắk Lắk",
+            "Đắk Nông",
+            "Điện Biên",
+            "Đồng Nai",
+            "Đồng Tháp",
+            "Gia Lai",
+            "Hà Giang",
+            "Hà Nam",
+            "Hà Nội",
+            "Hà Tĩnh",
+            "Hải Dương",
+            "Hải Phòng",
+            "Hậu Giang",
+            "Hòa Bình",
+            "Hưng Yên",
+            "Khánh Hòa",
+            "Kiên Giang",
+            "Kon Tum",
+            "Lai Châu",
+            "Lâm Đồng",
+            "Lạng Sơn",
+            "Lào Cai",
+            "Long An",
+            "Nam Định",
+            "Nghệ An",
+            "Ninh Bình",
+            "Ninh Thuận",
+            "Phú Thọ",
+            "Phú Yên",
+            "Quảng Bình",
+            "Quảng Nam",
+            "Quảng Ngãi",
+            "Quảng Ninh",
+            "Quảng Trị",
+            "Sóc Trăng",
+            "Sơn La",
+            "Tây Ninh",
+            "Thái Bình",
+            "Thái Nguyên",
+            "Thanh Hóa",
+            "Thừa Thiên Huế",
+            "Tiền Giang",
+            "Thành phố Hồ Chí Minh",
+            "Trà Vinh",
+            "Tuyên Quang",
+            "Vĩnh Long",
+            "Vĩnh Phúc",
+            "Yên Bái"});
+            this.cboDiaChi.Location = new System.Drawing.Point(613, 3);
+            this.cboDiaChi.Name = "cboDiaChi";
+            this.cboDiaChi.Size = new System.Drawing.Size(140, 21);
+            this.cboDiaChi.TabIndex = 19;
+            this.cboDiaChi.SelectedIndexChanged += new System.EventHandler(this.cboDiaChi_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -322,7 +405,6 @@
         private System.Windows.Forms.Label lblNamSinh;
         private System.Windows.Forms.TextBox txtNamSinh;
         private System.Windows.Forms.Label lblDiaChi;
-        private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label lblHoTen;
         private System.Windows.Forms.TextBox txtHoTen;
         private System.Windows.Forms.Label lblGioiTinh;
@@ -338,6 +420,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnuSua;
         private System.Windows.Forms.ToolStripMenuItem mnuXoa;
         private System.Windows.Forms.ToolStripMenuItem mnuThoat;
+        private System.Windows.Forms.ComboBox cboDiaChi;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
