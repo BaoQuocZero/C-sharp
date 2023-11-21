@@ -1,0 +1,5 @@
+D:\DA21TTA\c2b4\c2b4\bin\Debug\c2b4.exe.config
+D:\DA21TTA\c2b4\c2b4\bin\Debug\c2b4.exe
+D:\DA21TTA\c2b4\c2b4\bin\Debug\c2b4.pdb
+D:\DA21TTA\c2b4\c2b4\obj\Debug\c2b4.exe
+D:\DA21TTA\c2b4\c2b4\obj\Debug\c2b4.pdb

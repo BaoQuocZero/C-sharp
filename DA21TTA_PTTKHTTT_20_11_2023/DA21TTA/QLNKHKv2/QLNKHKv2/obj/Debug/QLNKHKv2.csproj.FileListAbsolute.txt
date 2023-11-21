@@ -1,0 +1,14 @@
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\bin\Debug\QLNKHKv2.exe.config
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\bin\Debug\QLNKHKv2.exe
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\bin\Debug\QLNKHKv2.pdb
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.csprojResolveAssemblyReference.cache
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.Form1.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.FormHoKhau.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.FormNhanKhau.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.FormPX.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.FormQH.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.Properties.Resources.resources
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.csproj.GenerateResource.Cache
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.exe
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.pdb
+D:\DA21TTA\QLNKHKv2\QLNKHKv2\obj\Debug\QLNKHKv2.FormTraCuuNhanKhau.resources

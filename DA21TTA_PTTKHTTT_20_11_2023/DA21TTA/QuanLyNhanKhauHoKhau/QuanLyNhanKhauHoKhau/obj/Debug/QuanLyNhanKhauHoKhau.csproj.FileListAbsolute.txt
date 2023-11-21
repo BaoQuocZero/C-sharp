@@ -1,0 +1,14 @@
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\bin\Debug\QuanLyNhanKhauHoKhau.exe.config
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\bin\Debug\QuanLyNhanKhauHoKhau.exe
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\bin\Debug\QuanLyNhanKhauHoKhau.pdb
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.csprojResolveAssemblyReference.cache
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FormHoKhau.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.Properties.Resources.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.csproj.GenerateResource.Cache
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.exe
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.pdb
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FormNhanKhau.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FormMenu.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FormPX.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FormQH.resources
+D:\DA21TTA\QuanLyNhanKhauHoKhau\QuanLyNhanKhauHoKhau\obj\Debug\QuanLyNhanKhauHoKhau.FromTraCuuNhanKhau.resources

@@ -1,0 +1,6 @@
+D:\DA21TTA\c2b9\c2b9\bin\Debug\c2b9.exe.config
+D:\DA21TTA\c2b9\c2b9\bin\Debug\c2b9.exe
+D:\DA21TTA\c2b9\c2b9\bin\Debug\c2b9.pdb
+D:\DA21TTA\c2b9\c2b9\obj\Debug\c2b9.exe
+D:\DA21TTA\c2b9\c2b9\obj\Debug\c2b9.pdb
+D:\DA21TTA\c2b9\c2b9\obj\Debug\c2b9.csprojResolveAssemblyReference.cache

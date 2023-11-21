@@ -1,0 +1,6 @@
+D:\DA21TTA\c3b2\c3b2\bin\Debug\c3b2.exe.config
+D:\DA21TTA\c3b2\c3b2\bin\Debug\c3b2.exe
+D:\DA21TTA\c3b2\c3b2\bin\Debug\c3b2.pdb
+D:\DA21TTA\c3b2\c3b2\obj\Debug\c3b2.csprojResolveAssemblyReference.cache
+D:\DA21TTA\c3b2\c3b2\obj\Debug\c3b2.exe
+D:\DA21TTA\c3b2\c3b2\obj\Debug\c3b2.pdb
