@@ -1,0 +1,9 @@
+D:\DA21TTA\c4b2Fake\c4b2Fake\bin\Debug\c4b2Fake.exe.config
+D:\DA21TTA\c4b2Fake\c4b2Fake\bin\Debug\c4b2Fake.exe
+D:\DA21TTA\c4b2Fake\c4b2Fake\bin\Debug\c4b2Fake.pdb
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.csprojResolveAssemblyReference.cache
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.Form1.resources
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.Properties.Resources.resources
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.csproj.GenerateResource.Cache
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.exe
+D:\DA21TTA\c4b2Fake\c4b2Fake\obj\Debug\c4b2Fake.pdb

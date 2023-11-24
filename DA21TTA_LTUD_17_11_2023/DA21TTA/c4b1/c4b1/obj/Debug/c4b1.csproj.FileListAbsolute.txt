@@ -1,0 +1,9 @@
+D:\DA21TTA\c4b1\c4b1\bin\Debug\c4b1.exe.config
+D:\DA21TTA\c4b1\c4b1\bin\Debug\c4b1.exe
+D:\DA21TTA\c4b1\c4b1\bin\Debug\c4b1.pdb
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.csprojResolveAssemblyReference.cache
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.Form1.resources
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.Properties.Resources.resources
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.csproj.GenerateResource.Cache
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.exe
+D:\DA21TTA\c4b1\c4b1\obj\Debug\c4b1.pdb
