@@ -19,7 +19,7 @@ namespace c4b2
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            txtTinh.Text += "1"; 
+            txtTinh.Text += "1";
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -123,7 +123,7 @@ namespace c4b2
             }
             catch (Exception ex)
             {
-                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán
+                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán                                                                                                                                                                                                                                     //Code by Quốc Bảo DA21TTA
                 txtTinh.Text = "Phép tính không hợp lệ";
             }
         }
