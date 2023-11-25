@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.txtTinh = new System.Windows.Forms.TextBox();
             this.btnSqrt = new System.Windows.Forms.Button();
             this.btnMR = new System.Windows.Forms.Button();
             this.btnMCong = new System.Windows.Forms.Button();
@@ -50,6 +49,7 @@
             this.btnBang = new System.Windows.Forms.Button();
             this.btnCongTru = new System.Windows.Forms.Button();
             this.btnChia = new System.Windows.Forms.Button();
+            this.txtTinh = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,13 +80,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(306, 394);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // txtTinh
-            // 
-            this.txtTinh.Location = new System.Drawing.Point(9, 12);
-            this.txtTinh.Name = "txtTinh";
-            this.txtTinh.Size = new System.Drawing.Size(306, 20);
-            this.txtTinh.TabIndex = 0;
-            // 
             // btnSqrt
             // 
             this.btnSqrt.Location = new System.Drawing.Point(3, 3);
@@ -95,6 +88,7 @@
             this.btnSqrt.TabIndex = 0;
             this.btnSqrt.Text = "Sqrt";
             this.btnSqrt.UseVisualStyleBackColor = true;
+            this.btnSqrt.Click += new System.EventHandler(this.btnSqrt_Click);
             // 
             // btnMR
             // 
@@ -104,6 +98,7 @@
             this.btnMR.TabIndex = 1;
             this.btnMR.Text = "MR";
             this.btnMR.UseVisualStyleBackColor = true;
+            this.btnMR.Click += new System.EventHandler(this.btnMR_Click);
             // 
             // btnMCong
             // 
@@ -113,6 +108,7 @@
             this.btnMCong.TabIndex = 2;
             this.btnMCong.Text = "M+";
             this.btnMCong.UseVisualStyleBackColor = true;
+            this.btnMCong.Click += new System.EventHandler(this.btnMCong_Click);
             // 
             // btnC
             // 
@@ -283,6 +279,13 @@
             this.btnChia.Text = "/";
             this.btnChia.UseVisualStyleBackColor = true;
             this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
+            // 
+            // txtTinh
+            // 
+            this.txtTinh.Location = new System.Drawing.Point(9, 12);
+            this.txtTinh.Name = "txtTinh";
+            this.txtTinh.Size = new System.Drawing.Size(306, 20);
+            this.txtTinh.TabIndex = 0;
             // 
             // Form1
             // 

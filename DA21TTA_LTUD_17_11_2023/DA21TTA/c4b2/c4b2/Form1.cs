@@ -12,6 +12,8 @@ namespace c4b2
 {
     public partial class Form1 : Form
     {
+        private double memoryValue = 0; // Biến lưu trữ giá trị trong bộ nhớ
+
         public Form1()
         {
             InitializeComponent();
@@ -100,13 +102,14 @@ namespace c4b2
                 DataTable dt = new DataTable();
                 var result = dt.Compute(txtTinh.Text, "");
 
-                // Hiển thị kết quả trong txtTinh.Text
-                txtTinh.Text = result.ToString();
+                // Lưu kết quả vào bộ nhớ và hiển thị trong txtTinh.Text
+                memoryValue = Convert.ToDouble(result);
+                txtTinh.Text = memoryValue.ToString();
             }
             catch (Exception ex)
             {
                 // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán
-                txtTinh.Text = "Phép tính không hợp lệ";
+                txtTinh.Text = "Lỗi";
             }
         }
 
@@ -118,13 +121,64 @@ namespace c4b2
                 DataTable dt = new DataTable();
                 var result = dt.Compute(txtTinh.Text, "");
 
-                // Đổi dấu của kết quả và hiển thị trong txtTinh.Text
-                txtTinh.Text = (-Convert.ToDouble(result)).ToString();
+                // Đổi dấu của kết quả và lưu vào bộ nhớ
+                memoryValue = -Convert.ToDouble(result);
+
+                // Hiển thị kết quả trong txtTinh.Text
+                txtTinh.Text = memoryValue.ToString();
             }
             catch (Exception ex)
             {
-                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán                                                                                                                                                                                                                                     //Code by Quốc Bảo DA21TTA
-                txtTinh.Text = "Phép tính không hợp lệ";
+                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán
+                txtTinh.Text = "Lỗi";
+            }
+        }
+
+        private void btnSqrt_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Sử dụng DataTable để tính toán giá trị biểu thức
+                DataTable dt = new DataTable();
+                var result = dt.Compute(txtTinh.Text, "");
+
+                // Tính căn bậc hai của kết quả và lưu vào bộ nhớ
+                memoryValue = Math.Sqrt(Convert.ToDouble(result));
+
+                // Hiển thị kết quả trong txtTinh.Text
+                txtTinh.Text = memoryValue.ToString();
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán
+                txtTinh.Text = "Lỗi";
+            }
+        }
+
+        private void btnMR_Click(object sender, EventArgs e)
+        {
+            // Thêm giá trị từ bộ nhớ vào biểu thức
+            txtTinh.Text += memoryValue.ToString();
+        }
+
+        private void btnMCong_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Sử dụng DataTable để tính toán giá trị biểu thức
+                DataTable dt = new DataTable();
+                var result = dt.Compute(txtTinh.Text, "");
+
+                // Cộng kết quả vào bộ nhớ
+                memoryValue += Convert.ToDouble(result);
+
+                // Hiển thị kết quả trong txtTinh.Text
+                txtTinh.Text = memoryValue.ToString();
+            }
+            catch (Exception ex)
+            {
+                // Xử lý ngoại lệ nếu có lỗi trong quá trình tính toán
+                txtTinh.Text = "Lỗi";
             }
         }
     }
