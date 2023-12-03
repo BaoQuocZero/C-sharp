@@ -1,6 +1,6 @@
 # Dự Án Tự Học C# và WinForms
 
-Chào mừng bạn đến với dự án tự học C# và WinForms! Đây là một dự án nhỏ nhằm giúp bạn tự học và thực hành kiến thức về lập trình C# và phát triển ứng dụng Windows sử dụng WinForms. Dưới đây là mô tả và hướng dẫn sử dụng dự án này.
+Chào mừng bạn đến với dự án tự học C# và WinForms! Đây là một dự án nhỏ với mục đích tự học và thực hành kiến thức về lập trình C# và phát triển ứng dụng Windows sử dụng WinForms của tôi. Dưới đây là mô tả và hướng dẫn sử dụng dự án này.
 
 ## Nội Dung
 
@@ -13,7 +13,7 @@ Chào mừng bạn đến với dự án tự học C# và WinForms! Đây là m
 
 ## Mục Tiêu
 
-Dự án này nhằm giúp bạn nắm vững kiến thức lập trình C# và WinForms thông qua các bài học thực hành và ví dụ cụ thể. Mỗi bài học sẽ tập trung vào một chủ đề cụ thể và cung cấp mã nguồn minh họa và bài tập thực hành.
+Dự án này nhằm nắm vững kiến thức lập trình C# và WinForms thông qua các bài học thực hành và ví dụ cụ thể. Mỗi bài học sẽ tập trung vào một chủ đề cụ thể và cung cấp mã nguồn minh họa và bài tập thực hành của tôi.
 
 ## Cài Đặt
 
@@ -59,7 +59,7 @@ Nếu bạn muốn đóng góp vào dự án, vui lòng mở một issue để t
 ## Bản Quyền và Giấy Phép
 
 Dự án được phát hành dưới giấy phép [MIT License](LICENSE). Hãy đảm bảo đọc và hiểu rõ điều khoản của giấy phép trước khi sử dụng mã nguồn từ dự án này.
-
+Tôi là Bảo từ DA21TTA chúc các bro mai mắn.
 ---
 
 Chúc bạn học tốt và đạt được những kỹ năng quan trọng trong lập trình C# và WinForms!
