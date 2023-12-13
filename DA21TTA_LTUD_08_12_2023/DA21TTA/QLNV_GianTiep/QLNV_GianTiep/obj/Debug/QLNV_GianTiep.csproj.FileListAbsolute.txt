@@ -1,0 +1,11 @@
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\bin\Debug\QLNV_GianTiep.exe.config
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.Frm.resources
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.Properties.Resources.resources
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.csproj.GenerateResource.Cache
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\bin\Debug\QLNV_GianTiep.exe
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\bin\Debug\QLNV_GianTiep.pdb
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.exe
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.pdb
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.csprojResolveAssemblyReference.cache
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.FrmPhongBan.resources
+D:\DA21TTA_LTUD_01_12_2023\DA21TTA\QLNV_GianTiep\QLNV_GianTiep\obj\Debug\QLNV_GianTiep.FrmTimKiemNV.resources
