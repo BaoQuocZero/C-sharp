@@ -60,6 +60,15 @@ Nếu bạn muốn đóng góp vào dự án, vui lòng mở một issue để t
 
 Dự án được phát hành dưới giấy phép [MIT License](LICENSE). Hãy đảm bảo đọc và hiểu rõ điều khoản của giấy phép trước khi sử dụng mã nguồn từ dự án này.
 Tôi là Bảo từ DA21TTA chúc các bro mai mắn.
+
+## Lưu ý
+
+PHẦN MỀM ĐƯỢC CUNG CẤP "NHƯ NÓ LÀ", KHÔNG CÓ BẤT KỲ BẢO ĐẢM NÀO, RÕ RÀNG HOẶC NGỤ Ý,
+BAO GỒM BẢO ĐẢM VỀ TÌNH TRẠNG HOẠT ĐỘNG HOẶC PHÙ HỢP CHO MỘT MỤC ĐÍCH CỤ THỂ NÀO.
+KHÔNG CÓ TRÁCH NHIỆM PHÁP LÝ HOẶC NƠI CỦA BẤT KỲ TỔN THẤT HOẶC THIỆT HẠI NÀO PHÁT SINH
+TỪ VIỆC SỬ DỤNG HOẶC KHÔNG THỂ SỬ DỤNG PHẦN MỀM HOẶC TỪ CÁC HÀNH ĐỘNG KHÁC LIÊN QUAN
+ĐẾN PHẦN MỀM.
+
 ---
 
 Chúc bạn học tốt và đạt được những kỹ năng quan trọng trong lập trình C# và WinForms!
