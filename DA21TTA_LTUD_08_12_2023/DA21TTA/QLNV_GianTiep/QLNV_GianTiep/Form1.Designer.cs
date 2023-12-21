@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnPhongBan = new System.Windows.Forms.Button();
+            this.txtTimKiem = new System.Windows.Forms.Button();
             this.btnNhapLai = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
@@ -50,8 +52,6 @@
             this.txtSdt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cboTenPB = new System.Windows.Forms.ComboBox();
-            this.btnPhongBan = new System.Windows.Forms.Button();
-            this.txtTimKiem = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -71,6 +71,26 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(738, 303);
             this.flowLayoutPanel2.TabIndex = 5;
+            // 
+            // btnPhongBan
+            // 
+            this.btnPhongBan.Location = new System.Drawing.Point(3, 3);
+            this.btnPhongBan.Name = "btnPhongBan";
+            this.btnPhongBan.Size = new System.Drawing.Size(75, 36);
+            this.btnPhongBan.TabIndex = 6;
+            this.btnPhongBan.Text = "Phòng ban";
+            this.btnPhongBan.UseVisualStyleBackColor = true;
+            this.btnPhongBan.Click += new System.EventHandler(this.btnPhongBan_Click);
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(84, 3);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(75, 36);
+            this.txtTimKiem.TabIndex = 7;
+            this.txtTimKiem.Text = "Tìm Kiếm Nhân Viên";
+            this.txtTimKiem.UseVisualStyleBackColor = true;
+            this.txtTimKiem.Click += new System.EventHandler(this.txtTimKiem_Click);
             // 
             // btnNhapLai
             // 
@@ -203,7 +223,6 @@
             // 
             this.txtMaNV.Location = new System.Drawing.Point(677, 3);
             this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.ReadOnly = true;
             this.txtMaNV.Size = new System.Drawing.Size(54, 20);
             this.txtMaNV.TabIndex = 1;
             // 
@@ -276,26 +295,6 @@
             this.cboTenPB.Name = "cboTenPB";
             this.cboTenPB.Size = new System.Drawing.Size(255, 21);
             this.cboTenPB.TabIndex = 6;
-            // 
-            // btnPhongBan
-            // 
-            this.btnPhongBan.Location = new System.Drawing.Point(3, 3);
-            this.btnPhongBan.Name = "btnPhongBan";
-            this.btnPhongBan.Size = new System.Drawing.Size(75, 36);
-            this.btnPhongBan.TabIndex = 6;
-            this.btnPhongBan.Text = "Phòng ban";
-            this.btnPhongBan.UseVisualStyleBackColor = true;
-            this.btnPhongBan.Click += new System.EventHandler(this.btnPhongBan_Click);
-            // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(84, 3);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(75, 36);
-            this.txtTimKiem.TabIndex = 7;
-            this.txtTimKiem.Text = "Tìm Kiếm Nhân Viên";
-            this.txtTimKiem.UseVisualStyleBackColor = true;
-            this.txtTimKiem.Click += new System.EventHandler(this.txtTimKiem_Click);
             // 
             // Frm
             // 

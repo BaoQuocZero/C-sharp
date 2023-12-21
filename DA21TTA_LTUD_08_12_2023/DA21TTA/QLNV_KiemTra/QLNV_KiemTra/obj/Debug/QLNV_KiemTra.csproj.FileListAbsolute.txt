@@ -1,0 +1,12 @@
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\bin\Debug\QLNV_KiemTra.exe.config
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\bin\Debug\QLNV_KiemTra.exe
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\bin\Debug\QLNV_KiemTra.pdb
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.csproj.AssemblyReference.cache
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.Properties.Resources.resources
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.csproj.GenerateResource.cache
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.csproj.CoreCompileInputs.cache
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.exe
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.pdb
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.FrmDangNhap.resources
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.FrmNhanVien.resources
+C:\Code\C-sharp\DA21TTA_LTUD_08_12_2023\DA21TTA\QLNV_KiemTra\QLNV_KiemTra\obj\Debug\QLNV_KiemTra.FrmPhongBan.resources

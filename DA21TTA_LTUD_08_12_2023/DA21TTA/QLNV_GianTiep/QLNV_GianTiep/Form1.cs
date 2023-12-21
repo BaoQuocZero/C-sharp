@@ -66,7 +66,11 @@ namespace QLNV_GianTiep
                     && txtSdt.Text != "" && cboTenPB.Text != "")
                 {
                     DataRow dongmoi = bangnv.NewRow();
-                    dongmoi["MaNV"] = txtMaNV.Text;
+                    int parsedValue;
+                    if (int.TryParse(txtMaNV.Text, out parsedValue))
+                    {
+                        dongmoi["MaNV"] = parsedValue;
+                    }
                     dongmoi["TenNV"] = txtTenNV.Text;
                     dongmoi["GioiTinh"] = cboGioiTinh.Text;
                     dongmoi["NgaySinh"] = dateTimePicker_NgaySinh.Text;
@@ -104,7 +108,6 @@ namespace QLNV_GianTiep
                 txtSdt.Text = bangnv.Rows[donghh][5].ToString();
                 cboTenPB.SelectedValue = bangnv.Rows[donghh][6].ToString();
 
-                txtMaNV.Enabled = false;
             }
         }
 
@@ -180,12 +183,12 @@ namespace QLNV_GianTiep
 
         private void txtTimKiem_Click(object sender, EventArgs e)
         {
-            FrmTimKiemNV frm = new FrmTimKiemNV();
+            //FrmTimKiemNV frm = new FrmTimKiemNV();
 
-            this.Hide();
-            Frm a = new Frm();
-            a.Closed += (s, args) => this.Close();
-            frm.ShowDialog();
+            //this.Hide();
+            //Frm a = new Frm();
+            //a.Closed += (s, args) => this.Close();
+            //frm.ShowDialog();
         }
     }
 }

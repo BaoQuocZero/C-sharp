@@ -32,15 +32,15 @@
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.dgvNhanVien = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblTenNV = new System.Windows.Forms.Label();
-            this.txtTenNV = new System.Windows.Forms.TextBox();
             this.lblMaNV = new System.Windows.Forms.Label();
             this.txtMaNV = new System.Windows.Forms.TextBox();
+            this.lblTenNV = new System.Windows.Forms.Label();
+            this.txtTenNV = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cboTenPB = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -88,6 +88,15 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(3, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(728, 23);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Tìm Thấy: ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // dgvNhanVien
             // 
             this.dgvNhanVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -110,22 +119,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(738, 95);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
-            // lblTenNV
-            // 
-            this.lblTenNV.Location = new System.Drawing.Point(370, 0);
-            this.lblTenNV.Name = "lblTenNV";
-            this.lblTenNV.Size = new System.Drawing.Size(100, 23);
-            this.lblTenNV.TabIndex = 2;
-            this.lblTenNV.Text = "Tên NV";
-            this.lblTenNV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // txtTenNV
-            // 
-            this.txtTenNV.Location = new System.Drawing.Point(476, 3);
-            this.txtTenNV.Name = "txtTenNV";
-            this.txtTenNV.Size = new System.Drawing.Size(255, 20);
-            this.txtTenNV.TabIndex = 3;
-            // 
             // lblMaNV
             // 
             this.lblMaNV.Location = new System.Drawing.Point(3, 0);
@@ -141,6 +134,22 @@
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.Size = new System.Drawing.Size(255, 20);
             this.txtMaNV.TabIndex = 1;
+            // 
+            // lblTenNV
+            // 
+            this.lblTenNV.Location = new System.Drawing.Point(370, 0);
+            this.lblTenNV.Name = "lblTenNV";
+            this.lblTenNV.Size = new System.Drawing.Size(100, 23);
+            this.lblTenNV.TabIndex = 2;
+            this.lblTenNV.Text = "Tên NV";
+            this.lblTenNV.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtTenNV
+            // 
+            this.txtTenNV.Location = new System.Drawing.Point(476, 3);
+            this.txtTenNV.Name = "txtTenNV";
+            this.txtTenNV.Size = new System.Drawing.Size(255, 20);
+            this.txtTenNV.TabIndex = 3;
             // 
             // label5
             // 
@@ -163,15 +172,7 @@
             this.cboTenPB.Name = "cboTenPB";
             this.cboTenPB.Size = new System.Drawing.Size(255, 21);
             this.cboTenPB.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(3, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(728, 23);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Tìm Thấy: ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cboTenPB.SelectedIndexChanged += new System.EventHandler(this.cboTenPB_SelectedIndexChanged);
             // 
             // FrmTimKiemNV
             // 

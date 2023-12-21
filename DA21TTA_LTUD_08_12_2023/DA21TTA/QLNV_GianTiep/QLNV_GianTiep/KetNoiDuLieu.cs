@@ -19,7 +19,7 @@ namespace QLNV_GianTiep
         public KetNoiDuLieu()
         {
             ketnoi = new SqlConnection();
-            string chuoiketnoi = "Data Source=.;Initial Catalog=QLNV;Integrated Security=True";
+            string chuoiketnoi = "Data Source=DESKTOP-SDFOMUO;Initial Catalog=QLNV;Integrated Security=True;";
             ketnoi.ConnectionString = chuoiketnoi;
         }
 

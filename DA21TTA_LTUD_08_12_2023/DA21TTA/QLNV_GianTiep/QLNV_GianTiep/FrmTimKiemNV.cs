@@ -35,6 +35,18 @@ namespace QLNV_GianTiep
         private void FrmTimKiemNV_Load(object sender, EventArgs e)
         {
             HienThiDuLieu();
+            PopulateComboBox();
+        }
+
+        private void PopulateComboBox()
+        {
+            string sql = "SELECT MaPB, TenPB FROM PhongBan"; // Lấy cả MaPB và TenPB
+            DataTable bangPhongBan = ketnoi.DocDuLieu(sql);
+
+            // Giả sử cboTenPB là tên của ComboBox
+            cboTenPB.DataSource = bangPhongBan;
+            cboTenPB.DisplayMember = "TenPB";
+            cboTenPB.ValueMember = "MaPB"; // Chọn MaPB làm giá trị tương ứng
         }
 
         private void s_Click(object sender, EventArgs e)
@@ -56,11 +68,14 @@ namespace QLNV_GianTiep
         {
             string maNV = txtMaNV.Text;
             string tenNV = txtTenNV.Text;
-            string maPB = cboTenPB.Text; // Giả sử bạn muốn tìm kiếm theo MaPB
+            int maPB = Convert.ToInt32(cboTenPB.SelectedValue);
 
-            // Xây dựng câu truy vấn
-            string sql = "SELECT * FROM NhanVien WHERE MaNV LIKE '%{maNV}%' AND HoTenNV LIKE '%{tenNV}%' AND TenPB LIKE '%{maPB}%'";
-
+            string sql = "SELECT * FROM NhanVien WHERE MaNV LIKE @MaNV AND HoTenNV LIKE @TenNV AND MaPB = @MaPB";
+            SqlParameter[] thamso = {
+            new SqlParameter("@MaNV", "%" + maNV + "%"),
+            new SqlParameter("@TenNV", "%" + tenNV + "%"),
+            new SqlParameter("@MaPB", maPB)
+    };
             // Hiển thị kết quả tìm kiếm
             bangnv = ketnoi.DocDuLieu(sql);
             dgvNhanVien.DataSource = bangnv;
@@ -75,6 +90,11 @@ namespace QLNV_GianTiep
                 txtTenNV.Text = bangnv.Rows[donghh][1].ToString();
                 cboTenPB.SelectedValue = bangnv.Rows[donghh][6].ToString();
             }
+        }
+
+        private void cboTenPB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
