@@ -21,6 +21,9 @@ namespace QLNV_KiemTra
         string str = @"Data Source=DESKTOP-SDFOMUO;Initial Catalog=QLNV_KiemTra;Integrated Security=True;";
         SqlDataAdapter adapter = new SqlDataAdapter();
         DataTable tablenhanvien = new DataTable();
+        DataTable tablethongke = new DataTable();
+        DataTable tabletimten = new DataTable();
+        DataTable tabletimpb = new DataTable();
 
         void nhanvien()
         {
@@ -36,6 +39,28 @@ namespace QLNV_KiemTra
                 if (dgv != null)
                 {
                     dgv.DataSource = tablenhanvien;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hãy liên hệ với dev mã lỗi: " + ex.Message);
+            }
+        }
+
+        void thongke()
+        {
+            try
+            {
+                command = connection.CreateCommand();
+                command.CommandText = "SELECT PB.TenPB, COUNT(NV.MaNV) AS [Số lượng] FROM PhongBan PB LEFT JOIN NhanVien NV ON PB.MaPB = NV.MaPB GROUP BY PB.TenPB ORDER BY PB.TenPB;"; // Chỉnh sửa câu truy vấn để lấy dữ liệu từ bảng PhongBan
+                adapter.SelectCommand = command;
+                tablethongke.Clear();
+                adapter.Fill(tablethongke);
+
+                // Kiểm tra xem dgv đã được khai báo và cấu hình chưa
+                if (dgv != null)
+                {
+                    dgv.DataSource = tablethongke;
                 }
             }
             catch (Exception ex)
@@ -100,7 +125,7 @@ namespace QLNV_KiemTra
         private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             // Kiểm tra nếu chỉ số dòng và cột hợp lệ
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0 && lblTieuDe.Text == "Nhân viên")
             {
                 // Lấy giá trị từ cột MaNV
                 object maNVValue = dgv.Rows[e.RowIndex].Cells["MaNV"].Value;
@@ -338,6 +363,68 @@ namespace QLNV_KiemTra
 
             FrmPhongBan frmPhongBan = new FrmPhongBan();
             frmPhongBan.ShowDialog();
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            lblTieuDe.Text = "Quay lại";
+            thongke();
+        }
+
+        private void lblTieuDe_Click(object sender, EventArgs e)
+        {
+            lblTieuDe.Text = "Nhân viên";
+            nhanvien();
+        }
+
+        private void btnTimTen_Click(object sender, EventArgs e)
+        {
+            lblTieuDe.Text = "Quay lại";
+            try
+            {
+                command = connection.CreateCommand();
+                command.CommandText = "SELECT * FROM NhanVien WHERE HoTenNV LIKE @TenNV";
+                command.Parameters.AddWithValue("@TenNV", "%" + txtTenNV.Text + "%");
+
+                adapter.SelectCommand = command;
+                tabletimten.Clear();
+                adapter.Fill(tabletimten);
+
+                // Kiểm tra xem dgv đã được khai báo và cấu hình chưa
+                if (dgv != null)
+                {
+                    dgv.DataSource = tabletimten;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hãy liên hệ với dev mã lỗi: " + ex.Message);
+            }
+        }
+
+        private void btnTimPB_Click(object sender, EventArgs e)
+        {
+            lblTieuDe.Text = "Quay lại";
+            try
+            {
+                command = connection.CreateCommand();
+                command.CommandText = "SELECT * FROM NhanVien WHERE MaPB = @MaPB";
+                command.Parameters.AddWithValue("@MaPB", cboMaPB.SelectedValue);
+
+                adapter.SelectCommand = command;
+                tabletimpb.Clear();
+                adapter.Fill(tabletimpb);
+
+                // Kiểm tra xem dgv đã được khai báo và cấu hình chưa
+                if (dgv != null)
+                {
+                    dgv.DataSource = tabletimpb;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hãy liên hệ với dev mã lỗi: " + ex.Message);
+            }
         }
     }
 }
