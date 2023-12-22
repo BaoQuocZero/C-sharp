@@ -30,10 +30,14 @@
         {
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnPhongBan = new System.Windows.Forms.Button();
+            this.btnTimTen = new System.Windows.Forms.Button();
+            this.btnTimPB = new System.Windows.Forms.Button();
+            this.btnThongKe = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.lblTieuDe = new System.Windows.Forms.Label();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.lblTenNV = new System.Windows.Forms.Label();
@@ -50,10 +54,7 @@
             this.txtSdt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cboMaPB = new System.Windows.Forms.ComboBox();
-            this.btnThongKe = new System.Windows.Forms.Button();
-            this.lblTieuDe = new System.Windows.Forms.Label();
-            this.btnTimTen = new System.Windows.Forms.Button();
-            this.btnTimPB = new System.Windows.Forms.Button();
+            this.btnTimMaNV = new System.Windows.Forms.Button();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -62,6 +63,7 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.Controls.Add(this.btnPhongBan);
+            this.flowLayoutPanel2.Controls.Add(this.btnTimMaNV);
             this.flowLayoutPanel2.Controls.Add(this.btnTimTen);
             this.flowLayoutPanel2.Controls.Add(this.btnTimPB);
             this.flowLayoutPanel2.Controls.Add(this.btnThongKe);
@@ -86,9 +88,39 @@
             this.btnPhongBan.UseVisualStyleBackColor = true;
             this.btnPhongBan.Click += new System.EventHandler(this.btnPhongBan_Click);
             // 
+            // btnTimTen
+            // 
+            this.btnTimTen.Location = new System.Drawing.Point(165, 3);
+            this.btnTimTen.Name = "btnTimTen";
+            this.btnTimTen.Size = new System.Drawing.Size(75, 36);
+            this.btnTimTen.TabIndex = 8;
+            this.btnTimTen.Text = "Tìm tên";
+            this.btnTimTen.UseVisualStyleBackColor = true;
+            this.btnTimTen.Click += new System.EventHandler(this.btnTimTen_Click);
+            // 
+            // btnTimPB
+            // 
+            this.btnTimPB.Location = new System.Drawing.Point(246, 3);
+            this.btnTimPB.Name = "btnTimPB";
+            this.btnTimPB.Size = new System.Drawing.Size(75, 36);
+            this.btnTimPB.TabIndex = 9;
+            this.btnTimPB.Text = "Tìm phòng ban";
+            this.btnTimPB.UseVisualStyleBackColor = true;
+            this.btnTimPB.Click += new System.EventHandler(this.btnTimPB_Click);
+            // 
+            // btnThongKe
+            // 
+            this.btnThongKe.Location = new System.Drawing.Point(327, 3);
+            this.btnThongKe.Name = "btnThongKe";
+            this.btnThongKe.Size = new System.Drawing.Size(75, 36);
+            this.btnThongKe.TabIndex = 6;
+            this.btnThongKe.Text = "Thống kê";
+            this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
+            // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(327, 3);
+            this.btnThem.Location = new System.Drawing.Point(408, 3);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 36);
             this.btnThem.TabIndex = 0;
@@ -98,7 +130,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(408, 3);
+            this.btnXoa.Location = new System.Drawing.Point(489, 3);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 36);
             this.btnXoa.TabIndex = 1;
@@ -108,7 +140,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(489, 3);
+            this.btnSua.Location = new System.Drawing.Point(570, 3);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 36);
             this.btnSua.TabIndex = 2;
@@ -118,13 +150,24 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(570, 3);
+            this.btnThoat.Location = new System.Drawing.Point(651, 3);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 36);
             this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // lblTieuDe
+            // 
+            this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(3, 42);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(748, 28);
+            this.lblTieuDe.TabIndex = 7;
+            this.lblTieuDe.Text = "Nhân viên";
+            this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTieuDe.Click += new System.EventHandler(this.lblTieuDe_Click);
             // 
             // dgv
             // 
@@ -281,46 +324,15 @@
             this.cboMaPB.Size = new System.Drawing.Size(255, 21);
             this.cboMaPB.TabIndex = 6;
             // 
-            // btnThongKe
+            // btnTimMaNV
             // 
-            this.btnThongKe.Location = new System.Drawing.Point(246, 3);
-            this.btnThongKe.Name = "btnThongKe";
-            this.btnThongKe.Size = new System.Drawing.Size(75, 36);
-            this.btnThongKe.TabIndex = 6;
-            this.btnThongKe.Text = "Thống kê";
-            this.btnThongKe.UseVisualStyleBackColor = true;
-            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
-            // 
-            // lblTieuDe
-            // 
-            this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTieuDe.Location = new System.Drawing.Point(3, 42);
-            this.lblTieuDe.Name = "lblTieuDe";
-            this.lblTieuDe.Size = new System.Drawing.Size(748, 28);
-            this.lblTieuDe.TabIndex = 7;
-            this.lblTieuDe.Text = "Nhân viên";
-            this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTieuDe.Click += new System.EventHandler(this.lblTieuDe_Click);
-            // 
-            // btnTimTen
-            // 
-            this.btnTimTen.Location = new System.Drawing.Point(84, 3);
-            this.btnTimTen.Name = "btnTimTen";
-            this.btnTimTen.Size = new System.Drawing.Size(75, 36);
-            this.btnTimTen.TabIndex = 8;
-            this.btnTimTen.Text = "Tìm tên";
-            this.btnTimTen.UseVisualStyleBackColor = true;
-            this.btnTimTen.Click += new System.EventHandler(this.btnTimTen_Click);
-            // 
-            // btnTimPB
-            // 
-            this.btnTimPB.Location = new System.Drawing.Point(165, 3);
-            this.btnTimPB.Name = "btnTimPB";
-            this.btnTimPB.Size = new System.Drawing.Size(75, 36);
-            this.btnTimPB.TabIndex = 9;
-            this.btnTimPB.Text = "Tìm phòng ban";
-            this.btnTimPB.UseVisualStyleBackColor = true;
-            this.btnTimPB.Click += new System.EventHandler(this.btnTimPB_Click);
+            this.btnTimMaNV.Location = new System.Drawing.Point(84, 3);
+            this.btnTimMaNV.Name = "btnTimMaNV";
+            this.btnTimMaNV.Size = new System.Drawing.Size(75, 36);
+            this.btnTimMaNV.TabIndex = 10;
+            this.btnTimMaNV.Text = "Tìm mã NV";
+            this.btnTimMaNV.UseVisualStyleBackColor = true;
+            this.btnTimMaNV.Click += new System.EventHandler(this.btnTimMaNV_Click);
             // 
             // FrmNhanVien
             // 
@@ -368,5 +380,6 @@
         private System.Windows.Forms.Label lblTieuDe;
         private System.Windows.Forms.Button btnTimTen;
         private System.Windows.Forms.Button btnTimPB;
+        private System.Windows.Forms.Button btnTimMaNV;
     }
 }

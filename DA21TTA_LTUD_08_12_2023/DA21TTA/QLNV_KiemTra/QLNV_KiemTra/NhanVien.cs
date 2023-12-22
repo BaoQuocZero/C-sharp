@@ -24,6 +24,7 @@ namespace QLNV_KiemTra
         DataTable tablethongke = new DataTable();
         DataTable tabletimten = new DataTable();
         DataTable tabletimpb = new DataTable();
+        DataTable tabletimmanv = new DataTable();
 
         void nhanvien()
         {
@@ -168,9 +169,14 @@ namespace QLNV_KiemTra
         {
             try
             {
+                if (txtSdt.Text.Length != 10)
+                {
+                    MessageBox.Show("Số điện thoại phải là 10 số.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }    
+                else
                 if (!string.IsNullOrWhiteSpace(txtTenNV.Text) && !string.IsNullOrWhiteSpace(txtGioiTinh.Text)
                     && !string.IsNullOrWhiteSpace(txtDiaChi.Text) && !string.IsNullOrWhiteSpace(txtSdt.Text)
-                    && cboMaPB.SelectedValue != null && txtSdt.Text.Length == 10)
+                    && cboMaPB.SelectedValue != null)
                 {
                     using (SqlConnection newConnection = new SqlConnection(str))
                     {
@@ -274,10 +280,15 @@ namespace QLNV_KiemTra
         {
             try
             {
+                if (txtSdt.Text.Length != 10)
+                {
+                    MessageBox.Show("Số điện thoại phải là 10 số.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
                 // Kiểm tra nếu các ô nhập liệu không rỗng
                 if (!string.IsNullOrWhiteSpace(txtMaNV.Text) && !string.IsNullOrWhiteSpace(txtTenNV.Text)
                     && !string.IsNullOrWhiteSpace(txtGioiTinh.Text) && !string.IsNullOrWhiteSpace(txtDiaChi.Text)
-                    && !string.IsNullOrWhiteSpace(txtSdt.Text) && !string.IsNullOrWhiteSpace(cboMaPB.Text) && txtSdt.Text.Length == 10)
+                    && !string.IsNullOrWhiteSpace(txtSdt.Text) && !string.IsNullOrWhiteSpace(cboMaPB.Text))
                 {
                     // Mở kết nối mới
                     using (SqlConnection newConnection = new SqlConnection(str))
@@ -419,6 +430,31 @@ namespace QLNV_KiemTra
                 if (dgv != null)
                 {
                     dgv.DataSource = tabletimpb;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi hãy liên hệ với dev mã lỗi: " + ex.Message);
+            }
+        }
+
+        private void btnTimMaNV_Click(object sender, EventArgs e)
+        {
+            lblTieuDe.Text = "Quay lại";
+            try
+            {
+                command = connection.CreateCommand();
+                command.CommandText = "SELECT * FROM NhanVien WHERE MaNV = @MaNV";
+                command.Parameters.AddWithValue("@MaNV", txtMaNV.Text);
+
+                adapter.SelectCommand = command;
+                tabletimmanv.Clear();
+                adapter.Fill(tabletimmanv);
+
+                // Kiểm tra xem dgv đã được khai báo và cấu hình chưa
+                if (dgv != null)
+                {
+                    dgv.DataSource = tabletimmanv;
                 }
             }
             catch (Exception ex)
